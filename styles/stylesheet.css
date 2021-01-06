@@ -1,0 +1,250 @@
+/*rule for title
+font-family: 'Yellowtail', cursive;*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F9C95D;
+}
+
+/* Estilos Header */
+header {
+    height: 25vh;
+    padding: 2vh 0vh;
+    margin-bottom: 1vh;
+    justify-content: center;
+}
+.containerLateral {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 40vw;
+    justify-content: center;
+}
+.containerSocial {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+.containerSocial a {
+    margin: 0 0 10px 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+.searchBar {
+    flex-direction: row;
+}
+.containerNav {
+    height: 40%;
+}
+.test {
+    height: 20vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerBrand {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerBrand h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 5vw;
+    color: #A31915;
+    text-shadow: 2px 2px 2px #D19411;
+}
+.containerBrand div {
+    margin-right: 1vh;
+}
+.containerLogo {
+    height: 100%;
+}
+.containerLogo img {
+    height: 100%;
+}
+.nav-item {
+    border: 2px solid #A31915;
+    border-radius: 2px; 
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+/* Estilo Nav y Search */
+.nav-item a {
+    font-weight: bold;  
+    font-size: 3.5vh;
+}
+.nav-item:hover {
+    background-color: #D19411;
+}
+.navbar .nav-item:hover .nav-link{ 
+color: #fff;
+}
+.btn {
+    border: 1px solid #A31915;
+    color: black;
+}
+.btn:hover {
+    background-color: #D19411;
+    color: white;
+    font-weight: bold;
+    font-size:medium
+}
+
+/* Estilos Carrusel */
+.carousel-inner {
+    height: 75vh;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-item p {
+    display: inline;
+    background-color: rgba(100, 100, 100, 0.501);
+}
+
+/* Estilos Catálogo */
+section {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+}
+.containerContents {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.containerBanner {
+    height: 50%;
+    background-color: crimson;
+}
+.containerBanner img {
+    height: 100%;
+    width: 100%;
+}
+.containerProducts, .containerForm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerCardProducts {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2vh 0;
+    margin: 1vh 0;
+    background-color: #fddb7e;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+/* Estilos Footer */
+footer {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vh 0;
+}
+footer h3 {
+    font-size: 3.2vh;
+    font-weight: bold;
+}
+footer h4 {
+    font-size: 2vh;
+}
+.containerInfoFooter {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.containerDescription {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerDescription p {
+    padding: 0;
+    margin: 0;
+}
+.containerDescription a{
+    text-decoration: none;
+    color: black;
+}
+.containerDescription a:hover {
+    color: white;
+    font-weight: bold;
+}
+.containerSocial a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos Formulario */
+.brandForm, .containerUserForm {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 3vh;
+}
+.brandForm {
+    width: 25%;
+    background-color: #fddb7e;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.containerImage {
+    height: 175px;
+    width: 175px;
+}
+.containerImage img {
+    height: 100%;
+    border-radius: 50%;
+}
+.brandForm h3 {
+    font-weight: bold;
+}
+.containerMapForm {
+    height: 50%;
+}
+.containerUserForm {
+    width: 40%;
+    background-color: #ffe2a3;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.containerUserForm form {
+    padding: 0 2vh;
+}
+.userForm {
+    display: flex;
+    justify-content: center;
+}
+.form-control, .valid-feedback, .invalid-feedback {
+    margin: 0 0 0.5vh 0 !important;
+}
+.containerTextArea {
+    height: 25%;
+    margin-bottom: 3vh;
+}
+.textArea {
+    height: 100%;
+}
+
